@@ -18,7 +18,6 @@ export const SearchScreen = ({ history }) => {
 	const handleSearch = (e) => {
 		e.preventDefault();
 		history.push(`?q=${search}`);
-		console.log(heroesFiltered);
 	};
 
 	return (
